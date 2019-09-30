@@ -17,4 +17,6 @@ Després caldrà donar permisos d'execució:
 sudo chmod +x timer.sh
 ```
 
+|[](timer.png)
+
 Gaudiu del treball.
