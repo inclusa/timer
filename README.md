@@ -20,7 +20,7 @@ sudo chmod +x timer.sh
 Fent-ho tot amb un comandament:
 
 ```bash
-sudo wget -o /usr/local/bin/timer.sh https://raw.githubusercontent.com/inclusa/timer/master/timer.sh
+sudo wget -o /usr/local/bin/timer.sh https://raw.githubusercontent.com/inclusa/timer/master/timer.sh && sudo chmod +x timer.sh
 ```
 
 ![](timer.png)
