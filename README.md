@@ -17,6 +17,12 @@ Després caldrà donar permisos d'execució:
 sudo chmod +x timer.sh
 ```
 
+Fent-ho tot amb un comandament:
+
+```bash
+sudo wget -o /usr/local/bin/timer.sh https://raw.githubusercontent.com/inclusa/timer/master/timer.sh
+```
+
 ![](timer.png)
 
 Gaudiu del treball.
