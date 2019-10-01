@@ -4,11 +4,11 @@
 echo "# Iniciem";   sleep 2
 echo "# Notificació cada 5 minuts"; sleep 3
 echo "1" ; sleep 1
-echo "# ↑  1 min | ↓ 99 min";  sleep 3
+echo "# ↑  15 seg | ↓ 99 m 45 s";  sleep 4
 echo "2" ; sleep 1
 echo "# Comença! →  Enfocat!"; sleep 3
 echo "3" ; sleep 1
-echo "# ↑  15 seg | ↓ 99 m 45 s";  sleep 4
+echo "# ↑  1 min | ↓ 99 min";  sleep 3
 echo "4" ; sleep 43
 echo "# ↑  1 min | ↓ 99 min";  sleep 1
 echo "5" ; sleep 59
