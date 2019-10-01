@@ -5,8 +5,19 @@ echo "# Iniciem";   sleep 2
 echo "# Notificació cada 5 minuts"; sleep 3
 echo "1" ; sleep 1
 echo "# ↑  1 min | ↓ 99 min";  sleep 3
-echo "# Comença! →  Enfocat!"; sleep 291
-echo "5" ; sleep 1
+echo "2" ; sleep 1
+echo "# Comença! →  Enfocat!"; sleep 3
+echo "3" ; sleep 1
+echo "# ↑  15 seg | ↓ 99 m 45 s";  sleep 4
+echo "4" ; sleep 43
+echo "# ↑  1 min | ↓ 99 min";  sleep 1
+echo "5" ; sleep 59
+echo "# ↑  2 min | ↓ 99 min";  sleep 1
+echo "6" ; sleep 59
+echo "# ↑  3 min | ↓ 99 min";  sleep 1
+echo "4" ; sleep 59
+echo "# ↑  4 min | ↓ 99 min";  sleep 1
+echo "4" ; sleep 59
 echo "# ↑  5 min | ↓ 95 min"; sleep 299
 echo "10" ; sleep 1
 echo "# ↑ 10 min | ↓ 90 min"; sleep 299
@@ -48,7 +59,7 @@ echo "100" ; sleep 1
 echo "# 100 min → Descansa!"; sleep 5
 ) |
 zenity --progress \
-  --title="Sessió de pomodoro" \
+  --title="Timer de 100 minuts" \
   --text="Iniciem" \
   --percentage=0
 
@@ -58,7 +69,7 @@ if [ "$?" = -1 ] ; then
           --text="Update canceled."
 fi
 
-
-#sleep 1500 && zenity --warning --text="Han passat 25 minuts"
+# Codi inicial
+# sleep 1500 && zenity --warning --text="Han passat 25 minuts"
 
 
